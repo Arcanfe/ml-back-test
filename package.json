@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "node-fetch": "^3.2.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.10",
+    "nodemon": "^2.0.16"
+  }
+}
